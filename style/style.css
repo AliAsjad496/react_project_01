@@ -72,8 +72,8 @@ footer {
     margin: 40px 60px;
     /* padding: 0px 10px; */
     width: 1200px;
-    height: 350px;
-cursor: pointer;
+    height: 150px;
+    cursor: pointer;
 }
 
 /* column-one */
@@ -175,4 +175,20 @@ cursor: pointer;
     line-height: 30px;
     /* 166.667% */
     border: none;
+}
+
+hr {
+    width: 1200px;
+    margin: 0px 60px;
+    opacity: 0.5;
+    background: #C4C4C4;
+}
+
+.copy_right{
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
 }
