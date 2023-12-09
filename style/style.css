@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+/* header */
+
+header {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px;
+    /* border: 1px solid black; */
+}
+
+header .main_logo {
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 18px;
+    color: #C4C4C4;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav ul li:hover {
+    color: #058B8C;
+    cursor: pointer;
+}
+
+.header_btn {
+    height: 50px;
+    width: 190px;
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+}
+
+.header_btn:hover {
+    color: #FFF;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr 1fr;
+    /* border: 1px solid black; */
+    margin: 40px 60px;
+    /* padding: 0px 10px; */
+    width: 1200px;
+    height: 350px;
+cursor: pointer;
+}
+
+/* column-one */
+.column-one p {
+    margin-top: 20px;
+    width: 350px;
+    height: 92px;
+    /* flex-shrink: 0; */
+    color: #8F8F8F;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+/* column-two */
+
+.column-two ul li {
+    padding: 7px 0px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    list-style-type: none;
+    /* 150% */
+}
+
+.column-two ul li:hover {
+    color: black;
+}
+
+/* column-three */
+
+.column-three ul li {
+    padding: 7px 0px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    /* 150% */
+}
+
+.column-three ul li:hover {
+    color: black;
+}
+
+/* column-four */
+.column-four ul li {
+    padding: 7px 0px;
+    list-style: none;
+    color: #8F8F8F;
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.column-four ul li:hover {
+    color: black;
+}
+
+
+.column-four .news_letter {
+    display: flex;
+    margin-top: 17px;
+}
+
+.news_letter input {
+    height: 38px;
+    width: 230px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: 2px solid #058B8C;
+    color: #8F8F8F;
+}
+
+.news_letter .send_btn {
+    margin-left: 10px;
+    padding: 0px 0px 0px 4px;
+    border-radius: 341px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    width: 80px;
+    height: 38px;
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 166.667% */
+    border: none;
+}
